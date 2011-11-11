@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+        
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/ibutton1"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="1" android:background="@drawable/quick4_1"/>
+
+        <Button
+            android:id="@+id/ibutton2"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="2" android:background="@drawable/quick4_2"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/ibutton3"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="3" android:background="@drawable/quick4_3"/>
+
+        <Button
+            android:id="@+id/ibutton4"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="4" android:background="@drawable/quick4_4"/>
+
+    </LinearLayout>
+     
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	              xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+	              android:orientation="vertical"
+	              android:layout_width="fill_parent"
+	              android:layout_height="fill_parent">
+	  <com.google.ads.AdView android:id="@+id/adView"
+	                         android:layout_width="wrap_content"
+	                         android:layout_height="wrap_content"
+	                         ads:adUnitId="a14eb39a0adfb81"
+	                         ads:adSize="BANNER"
+	                         ads:testDevices="TEST_EMULATOR,6358DC67E221274BDD4F916D7A864DB2"
+	                         ads:loadAdOnCreate="true"/>
+	</LinearLayout>        
+        
+</LinearLayout>

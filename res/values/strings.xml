@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, Quick4MusicActivity!</string>
+    <string name="app_name">Quick4-Music</string>
+	<string name="mediaChooserTitle">Media Chooser</string>
+	<string name="name1">Song1</string>
+	<string name="name2">Song2</string>
+	<string name="name3">Song3</string>
+	<string name="name4">Song4</string>
+</resources>
